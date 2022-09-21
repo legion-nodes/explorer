@@ -7,16 +7,16 @@
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
         >
-          Ping Dashboard<small class="flow-left">Beta</small>
+          Legion Nodes Dashboard<small class="flow-left">Alpha</small>
         </h1>
       </div>
     </b-link>
 
     <p class="mb-1">
-      Ping Dashboard is not just an explorer but also a wallet and more ... 🛠
+      Legion Nodes Dashboard
     </p>
     <h2 class="mb-3">
-      Cosmos Ecosystem Blockchains 🚀
+    Earn passive income by securing Proof-of-Stake blockchains
     </h2>
 
     <div>
