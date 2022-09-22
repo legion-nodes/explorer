@@ -7,7 +7,7 @@
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
         >
-          Ping Dashboard<small class="flow-left">Beta</small>
+          Legion Nodes Dashboard<small class="flow-left">Alpha</small>
         </h1>
       </div>
     </b-link>
