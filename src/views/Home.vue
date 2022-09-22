@@ -13,10 +13,10 @@
     </b-link>
 
     <p class="mb-1">
-      Ping Dashboard is not just an explorer but also a wallet and more ... 🛠
+      Earn passive income by securing Proof-of-Stake blockchains
     </p>
     <h2 class="mb-3">
-      Cosmos Ecosystem Blockchains 🚀
+      Supported Chains Stride, QuickSilver, and Evmos
     </h2>
 
     <div>
