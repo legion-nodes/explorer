@@ -7,7 +7,7 @@ const NodePolyfillPlugin = require('node-polyfill-webpack-plugin')
 // const productionGzipExtensions = ['js', 'css']
 
 module.exports = {
-  publicPath: '/explorer/',
+  publicPath: '/',
   productionSourceMap: false,
   css: {
     loaderOptions: {

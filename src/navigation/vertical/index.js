@@ -23,11 +23,19 @@ function processMenu() {
     })
   }
   chainMenus.push({ header: 'LINKS' })
-  chainMenus.push({
+  if (isTestnet()) {
+    chainMenus.push({
       title: 'Mainnet Explorer',
       href: 'https://legionnodes.com/explorer',
       icon: 'ChromeIcon',
-  })
+    })
+  } else {
+    chainMenus.push({
+      title: 'Testnet Explorer',
+      href: 'https://legionnodes.com/explorer/testnet',
+      icon: 'LifeBuoyIcon',
+    })
+  }
   chainMenus.push({
     title: 'Github',
     href: 'https://github.com/legion-nodes/explorer',
