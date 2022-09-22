@@ -4,9 +4,9 @@
       Powered By
       <b-link
         class="ml-25 font-weight-bolder"
-        href="#"
+        href="https://legionnodes.com/"
         target="_blank"
-      >Ping.pub</b-link>
+      >Legion Nodes</b-link>
     </span>
 
     <router-link
