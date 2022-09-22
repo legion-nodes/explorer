@@ -7,13 +7,13 @@
     "coin_type": "60",
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "evmos",
-    "logo": "logos/evmos.png",
+    "logo": "/logos/evmos.png",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [{
         "base": "aevmos",
         "symbol": "evmos",
         "exponent": "18",
         "coingecko_id": "evmos",
-        "logo": "logos/evmos.jpeg"
+        "logo": "/logos/evmos.jpeg"
     }]
 }
