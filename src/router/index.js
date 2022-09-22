@@ -27,7 +27,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/coffee',
+      path: 'coffee',
       name: 'coffee',
       component: () => import('@core/layouts/components/Coffee.vue'),
       meta: {
@@ -41,7 +41,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/wallet/accounts',
+      path: 'wallet/accounts',
       alias: '/wallet',
       name: 'accounts',
       component: () => import('@/views/WalletAccounts.vue'),
@@ -56,7 +56,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/wallet/import',
+      path: 'wallet/import',
       name: 'accounts-import',
       component: () => import('@/views/WalletAccountImportAddress.vue'),
       meta: {
@@ -70,7 +70,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/wallet/delegations',
+      path: 'wallet/delegations',
       name: 'delegations',
       component: () => import('@/views/WalletDelegations.vue'),
       meta: {
@@ -86,7 +86,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/wallet/transactions',
+      path: 'wallet/transactions',
       name: 'mytransactions',
       component: () => import('@/views/WalletTransactions.vue'),
       meta: {
@@ -102,7 +102,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/wallet/votes',
+      path: 'wallet/votes',
       name: 'myVotes',
       component: () => import('@/views/WalletVotes.vue'),
       meta: {
@@ -119,7 +119,7 @@ const router = new VueRouter({
     },
     // chain modules
     {
-      path: '/:chain/',
+      path: ':chain/',
       name: 'dashboard',
       alias: '/:chain',
       component: () => import('@/views/Dashboard.vue'),
@@ -134,7 +134,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/parameters',
+      path: ':chain/parameters',
       name: 'parameters',
       component: () => import('@/views/Parameters.vue'),
       meta: {
@@ -148,7 +148,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/statesync',
+      path: ':chain/statesync',
       name: 'statesync',
       component: () => import('@/views/StateSync.vue'),
       meta: {
@@ -162,7 +162,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/uptime',
+      path: ':chain/uptime',
       name: 'uptime',
       component: () => import('@/views/Uptime.vue'),
       meta: {
@@ -176,7 +176,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/uptime/my',
+      path: ':chain/uptime/my',
       name: 'myuptime',
       component: () => import('@/views/UptimeMyValidators.vue'),
       meta: {
@@ -194,7 +194,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/account/:address',
+      path: ':chain/account/:address',
       name: 'chain-account',
       component: () => import('@/views/WalletAccountDetail.vue'),
       meta: {
@@ -212,7 +212,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/account/:address/receive',
+      path: ':chain/account/:address/receive',
       name: 'chain-receive',
       component: () => import('@/views/WalletAccountReceive.vue'),
       meta: {
@@ -230,7 +230,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/staking',
+      path: ':chain/staking',
       name: 'staking',
       component: () => import('@/views/Staking.vue'),
       meta: {
@@ -244,7 +244,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/staking/:address',
+      path: ':chain/staking/:address',
       name: 'staking-valiator',
       component: () => import('@/views/StakingValidator.vue'),
       meta: {
@@ -262,7 +262,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/gov',
+      path: ':chain/gov',
       name: 'governance',
       component: () => import('@/views/Governance.vue'),
       meta: {
@@ -280,7 +280,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/gov/:proposalid',
+      path: ':chain/gov/:proposalid',
       name: 'proposal',
       component: () => import('@/views/GovernanceProposalView.vue'),
       meta: {
@@ -298,7 +298,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/blocks',
+      path: ':chain/blocks',
       name: 'blocks',
       component: () => import('@/views/Blocks.vue'),
       meta: {
@@ -312,7 +312,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/blocks/:height',
+      path: ':chain/blocks/:height',
       name: 'block',
       component: () => import('@/views/Block.vue'),
       meta: {
@@ -330,7 +330,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: '/:chain/tx/:hash',
+      path: ':chain/tx/:hash',
       name: 'transaction',
       component: () => import('@/views/Transaction.vue'),
       meta: {
@@ -346,7 +346,7 @@ const router = new VueRouter({
     // custom modules for specified chains
     // 1. cosmos
     {
-      path: '/:chain/cosmos/trade',
+      path: ':chain/cosmos/trade',
       name: 'gravity',
       component: () => import('@/views/GravityPool.vue'),
       meta: {
@@ -361,7 +361,7 @@ const router = new VueRouter({
     },
     // 2. OSMOSIS
     {
-      path: '/:chain/osmosis/trade/:poolid?',
+      path: ':chain/osmosis/trade/:poolid?',
       name: 'osmosis-trade',
       component: () => import('@/views/OsmosisTrade.vue'),
       meta: {
@@ -380,7 +380,7 @@ const router = new VueRouter({
     },
     // common modules
     {
-      path: '/:chain/consensus',
+      path: ':chain/consensus',
       name: 'consensus',
       component: () => import('@/views/ConsensusStates.vue'),
       meta: {
