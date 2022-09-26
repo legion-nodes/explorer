@@ -25,13 +25,13 @@ $black: #22292f !default; // 231f48 22292f
 $purple: #7367f0 !default; //$primary
 $green: #28c76f !default; //$success
 $blue: #00cfe8 !default; //$info
-$orange: #ff9f43 !default; //$warning
+$orange: #fd5b0d !default; //$warning
 $red: #ea5455 !default; //$danger
 
-$primary: $purple !default;
-$secondary: #82868b !default;
+$primary: $orange !default;
+$secondary: #777777!default;
 $info: $blue !default;
-$warning: $orange !default;
+$warning: $red !default;
 $light: $gray-50 !default;
 $dark: #4b4b4b !default;
 

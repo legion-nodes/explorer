@@ -25,15 +25,15 @@ function processMenu() {
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
-      title: 'Mainnet Explorer',
-      href: 'https://legionnodes.com/explorer',
+      title: 'Website',
+      href: 'https://legionnodes.com',
       icon: 'ChromeIcon',
     })
   } else {
     chainMenus.push({
-      title: 'Testnet Explorer',
-      href: 'https://legionnodes.com/explorer/testnet',
-      icon: 'LifeBuoyIcon',
+      title: 'Website',
+      href: 'https://legionnodes.com',
+      icon: 'ChromeIcon',
     })
   }
   chainMenus.push({

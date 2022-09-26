@@ -2,7 +2,7 @@
 
 ![Ping Wallet](./public/logo.svg)
 
-<h1>Ping Explorer</h1>
+<h1>Ping Explorer Modified for Legion Nodes</h1>
 
 **Ping explorer is not only an explorer but also a wallet and more ... 🛠**
 
