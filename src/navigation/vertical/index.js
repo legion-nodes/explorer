@@ -19,7 +19,7 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://legionnodes.com/assets/img/legion-icon.jpg',
+      icon: 'https://legionnodes.com/assets/img/legion-icon.png',
     })
   }
   chainMenus.push({ header: 'LINKS' })
