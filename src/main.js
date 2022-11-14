@@ -21,7 +21,7 @@ import '@/libs/toastification'
 import '@/libs/clipboard'
 
 Vue.directive('observe-visibility', ObserveVisibility)
-// Vue.use(VueGtag, { config: { id: 'UA-238887-1' } }, router)
+// Vue.use(VueGtag, { config: { id: 'UA-231929998-1' } }, router)
 
 Vue.use(VueI18n)
 

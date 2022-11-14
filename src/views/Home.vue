@@ -16,7 +16,7 @@
       Earn passive income by securing Proof-of-Stake blockchains
     </p>
     <h2 class="mb-3">
-      Supported Chains Stride, QuickSilver, and Evmos
+      Supported Chains Stride, Teritori, and Evmos
     </h2>
 
     <div>
